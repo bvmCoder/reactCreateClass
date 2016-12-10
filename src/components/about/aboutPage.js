@@ -3,7 +3,7 @@
 var React = require('react');
 
 var About = React.createClass({
-	render: function () {
+	render: function render() {
 		return (
 			<div>
 				<h1>About</h1>
@@ -13,6 +13,7 @@ var About = React.createClass({
 						<li>React</li>
 						<li>React Router</li>
 						<li>Flux</li>
+						<li>Redux</li>
 						<li>Node</li>
 						<li>Gulp</li>
 						<li>Browserify</li>
@@ -20,7 +21,7 @@ var About = React.createClass({
 					</ul>
 				</p>
 			</div>
-		); 
+		);
 	}
 });
 

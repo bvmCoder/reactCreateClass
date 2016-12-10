@@ -7,7 +7,7 @@ var Header = require('./components/common/header');
 (function(win) {
 	"use strict";
 	var App = React.createClass({
-		render: function() {
+		render: function render() {
 			var Child;
 
 			switch(this.props.route) {

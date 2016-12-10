@@ -3,12 +3,12 @@
 var React = require('react');
 
 var Header = React.createClass({
-	render: function() {
+	render: function render() {
 		return (
         <nav className="navbar navbar-default">
           <div className="container-fluid">
               <a href="/" className="navbar-brand">
-                <img src="images/pluralsight-logo.png" />
+                <img src="./images/react-logo.svg" />
               </a>
               <ul className="nav navbar-nav">
                 <li><a href="/">Home</a></li>
