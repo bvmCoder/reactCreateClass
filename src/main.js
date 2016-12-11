@@ -25,11 +25,11 @@ var Header = require('./components/common/header');
 		}
 	});
 
-	function render() {
+	function renderFunc() {
 		var route = window.location.hash.substr(1);
 		React.render(<App route={route} />, document.getElementById('app'));
 	}
 
-	window.addEventListener('hashchange', render);
-	render();
+	window.addEventListener('hashchange', renderFunc);
+	renderFunc();
 })(window);
